@@ -1,0 +1,94 @@
+table.shelf {
+    width: 200px;
+    margin: 0;
+    font-style: italic;
+    background-color: rgb(138, 85, 24);
+    background-image: url('https://www.transparenttextures.com/patterns/dark-dot.png');
+    background-size: auto;
+    background-repeat: repeat;
+}
+
+body{
+    background-image: url('https://www.transparenttextures.com/patterns/black-mamba.png');
+    background-repeat: repeat;
+    background-color: #b91f1f;
+    margin: 0
+}
+
+header {
+    background-color: rgb(138, 24, 24);
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    background-image: url('https://www.transparenttextures.com/patterns/corrugation.png');
+    background-size: auto;
+    background-repeat: repeat;
+    font-variant: small-caps;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header h1 {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(236, 239, 57);
+    padding: 5px;
+    border: thin double black;
+    display: inline-block;
+}
+
+table.shelf td {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+
+.book{
+    height: 90px;
+    width: 20px;
+    background-image: url('https://www.transparenttextures.com/patterns/dark-matter.png');
+    background-size: auto;
+    background-repeat: repeat;
+    margin: 0 0.5px;
+    border: thin solid rgba(0, 0, 0, 0.5);
+    font-size: small;
+    padding: 2px;
+}
+
+.label-shelf{
+    color: rgb(243, 243, 243);
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    table-layout: fixed;
+}
+
+.label-shelf td {
+    text-align: center;
+}
+
+table, th, td {
+    border: 3px double black;
+}
+
+.reading-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-cover {
+    position: "relative";
+    width: 300px;
+    aspect-ratio: 1/1.5;
+    background-color: #55b01c;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://www.transparenttextures.com/patterns/black-linen.png');
+    background-size: auto;
+    background-repeat: repeat;
+    border: thin solid black;
+}

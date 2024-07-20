@@ -1,3 +1,4 @@
+import { complement, triad } from "react-native-color-toolkit";
 import { hexToComplimentary } from "../util/util";
 
 type BookCoverProps = {
@@ -8,7 +9,8 @@ const BookCover: React.FC<BookCoverProps> = ({ mainColor }) => {
 
 
     const pattern1 = (title: string, author: string) => {
-        const patternColor = hexToComplimentary(mainColor);
+        const triadColor = Math.floor(Math.random() * 3)
+        const patternColor = triad(mainColor)[triadColor]
 
         const circle = (top: string, left: string, bottom: string, right: string) => {
             return (

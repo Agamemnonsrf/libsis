@@ -1,6 +1,7 @@
 import './App.css'
 import BookCover from './components/book-cover'
 import BookTable from './components/book-table'
+import { Colors } from 'react-native-color-toolkit'
 
 function App() {
 
@@ -31,7 +32,6 @@ function App() {
             </header>
             <div className='reading-area'>
                 <BookTable categories={categories} books={books} bookColors={bookColors} />
-                <BookCover mainColor="#663498" />
             </div>
         </>
     )
